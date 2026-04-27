@@ -207,6 +207,12 @@
     }
     window.scrollTo(0, 0);
   });
+  const menuBtn = document.getElementById('menuBtn');
+  const menu = document.getElementById('menu');
+  menuBtn.addEventListener('click', () => {
+  menu.classList.toggle('is-open');
+  menuBtn.classList.toggle('is-active');
+  });
 </script>
 </body>
 </html>
